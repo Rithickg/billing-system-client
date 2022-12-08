@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+table,
+th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    color: red;
+}
+
