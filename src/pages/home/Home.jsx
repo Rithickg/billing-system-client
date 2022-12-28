@@ -17,7 +17,7 @@ export const Home = () => {
     }, [])
     console.log("Home Bills",bills)
   return (
-    <div className='h-full'>
+    <div className='bg-gray-900 h-screen'>
         <Bills bills={bills}/>
     </div>
   )

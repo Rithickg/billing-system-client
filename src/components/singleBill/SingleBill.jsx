@@ -39,9 +39,9 @@ export const SingleBill = () => {
             console.log(error)
         }
     }
-    console.log("bill.order",bill.order)
-    console.log(bill)
-    console.log("order",order)
+    // console.log("bill.order",bill.order)
+    // console.log(bill)
+    // console.log("order",order)
 
     const componentRef =useRef()
     const handlePrint =useReactToPrint({
