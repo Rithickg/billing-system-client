@@ -84,7 +84,7 @@ console.log("Bill Total",billTotal)
     }
     
     return (
-        <div className='flex flex-col h-screen font-serif bg-gray-900 mx-0'>
+        <div className='flex flex-col h-[100%] font-serif bg-gray-900 mx-0'>
             <h1 className='text-3xl text-white text-center'>EditBill</h1>
             <form className='bg-gray-300 sm:w-5/6 md:w-1/2 mx-auto p-4 rounded-md flex flex-col justify-center'>
                 <label htmlFor='name'>Name: </label>
